@@ -58,7 +58,7 @@ alert(`O valor ${valor} ao quadrado é ${valorQuadrado}`)
 
 //Exercicio 6
 
-alert("Realize a soma de  6 numeros e tire a media")
+
 
 let nota1 = parseInt( prompt("Realize a soma de  6 numeros e tire a media :  Insira o Primeiro Numero :") )          
 let nota2 =parseInt( prompt("insira o segundo numero") )
@@ -75,7 +75,7 @@ alert(`Resultado: ${soma} media: ${media}`)
 
 //Exercicio 7
 
-alert("Resto da divisão do Primeiro pelo Segundo")
+
 
 let valor1 = prompt(" Resto da divisão do Primeiro pelo Segundo .Insira O Primeiro numero :")
 let valor2 = prompt ("insira o segundo numero")
@@ -91,13 +91,10 @@ alert(`Resultado da soma: ${resultadoSoma} resto:${Resto}`)
 
 
 
-
-
 let frase = prompt("Escreva uma Frase ou uma palavra para saber a quantidade de caracteres")
 
 
 let qtdFrase = frase.length;
-
 
 
 alert(`Essa é a quantidade de caracteres que sua frase ou palavra tem:${qtdFrase}`)
