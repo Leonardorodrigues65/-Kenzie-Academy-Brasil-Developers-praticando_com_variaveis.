@@ -4,13 +4,13 @@
 
 
 let Dinheiro = prompt("Quanto em Dinheiro deseja abastecer")
-let cliente = prompt("Nome do Cliente")
+
 let gasolina = 6.80;
 
 
 let qtdLitros =parseInt ( Dinheiro / gasolina );
 
-alert(`O ${cliente}  abasteceu essa quantidade de gasolina  ${qtdLitros} litros `)
+alert(`O Cliente abasteceu  ${qtdLitros}L `)
 
 // Exercicio 2
 
@@ -21,7 +21,7 @@ let F = 0
 
 let resultado = F = (9 * C+160) / 5
 
-alert(`temperatura em Fahrenheit ${resultado} `)
+alert(`O valor ${C}ºC  em Fahrenheit é ${resultado} `)
 
 
 //Exercicio 3
@@ -32,7 +32,7 @@ let c = 0
 
 let resultado2 = c = ((f - 32)* 5) / 9;
 
-alert (`temperatura em graus Celsius  ${resultado2.toFixed(5)} graus`)
+alert (`O valor ${F}ºF em Celsius é ${resultado2.toFixed(5)} `)
 
 
 // Exercicio 4
@@ -45,7 +45,7 @@ let alt = prompt("Informe  a Altura da sua Caixa")
 
 let volume = com*lar*alt;
 
-alert (`Resultado da sua Caixa ${volume} m³`)
+alert (`O volume é de: ${volume} m³`)
 
 //Exercio 5
 
@@ -70,7 +70,7 @@ let soma = (nota1 + nota2 + nota3 + nota4 + nota5)
 
 let media = (soma/5)
 
-alert(`Resultado: ${soma} media: ${media}`)
+alert(`A soma dos valores informados é: ${soma} e a média das notas é: ${media}`)
 
 
 //Exercicio 7
@@ -84,7 +84,7 @@ let resultadoSoma = ( valor1 * valor2 )
 
 let Resto =( valor1 %  valor2 )
 
-alert(`Resultado da soma: ${resultadoSoma} resto:${Resto}`)
+alert(`O resto da divisão de ${ valor1} por ${valor2} é: ${Resto}`)
 
 
 // Exercicio 8
@@ -97,19 +97,19 @@ let frase = prompt("Escreva uma Frase ou uma palavra para saber a quantidade de 
 let qtdFrase = frase.length;
 
 
-alert(`Essa é a quantidade de caracteres que sua frase ou palavra tem:${qtdFrase}`)
+alert(`Este texto tem:${qtdFrase} caracteres`)
 
 
 
 //Exercicio 9
 
-let frase1 = prompt ("Primeira letra e ultima letra: insira uma palavra ou frase  ")
+let frase1 = prompt ("insira uma palavra ou frase  ")
 
 let letra1 = frase1.toLocaleUpperCase()[0]
 
 let letra2 = frase1.substr(-1)
 
-alert(`primeira letra ${letra1} ultima letra ${letra2}    `)
+alert(`A primeira letra deste texto é ${letra1} e última é a  ${letra2}    `)
 
 
 //Exercicio 10
@@ -126,4 +126,4 @@ let resultadoSobre =sobrenome.toLocaleUpperCase()
 
 
 
-alert(`nome: ${resultadoNome}${resultadoSobre}    Idade - ${idade}   Setor- ${setor}`)
+alert(`nome: ${resultadoNome}  ${resultadoSobre}    Idade - ${idade}   Setor- ${setor}`)
